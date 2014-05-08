@@ -1,0 +1,14 @@
+.cbp-so-section.page5
+  #signup.row
+    .article.twelve.columns.centered.make-it-appear-top
+      = image_tag 'theme/appstore.png', alt: 'AppStore'
+      .space
+      %h4 Subscribe to our newsletter and stay updated on the release
+
+      = form_tag do
+        .seven.columns.first-column
+          = email_field :email, :email, class: :email, placeholder: 'Your email'
+        .five.columns
+          = submit_tag 'Notify me', class: :button
+
+      %p.spam We promisse we won't spam your inbox!

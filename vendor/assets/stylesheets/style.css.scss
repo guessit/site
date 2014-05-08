@@ -218,7 +218,7 @@ p a:hover {
 /* Link with a border button */
 
 .border-button {
-	background: url("go-right.png") no-repeat scroll 95% 50% / 6px auto rgba(0, 0, 0, 0);
+	background: asset_url("theme/go-right.png") no-repeat scroll 95% 50% / 6px auto rgba(0, 0, 0, 0);
     padding: 10px 35px 10px 15px;
     font-weight: normal;
     font-family: 'Source Sans Pro', sans-serif;
