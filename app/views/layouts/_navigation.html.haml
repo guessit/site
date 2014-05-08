@@ -1,0 +1,14 @@
+.cbp-af-header
+  %nav.row
+    .right
+      =link_to 'Share', '#', class: :button
+      .social-icon{style: 'display:none'}
+        / add facebook share button
+        / add twitter share button
+    #logo
+      = link_to '#' do
+        = image_tag 'logo.png', alt: 'GuessIt!'
+    %ul#nav
+      %li= link_to 'Contact', '#'
+      %li= link_to 'Support', '#'
+      %li= link_to 'Login', '#'

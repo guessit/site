@@ -1,0 +1,29 @@
+%section.page1
+  .huge-title
+    .logo-phone.centered
+      = image_tag 'logo.png', alt: 'GuessIt!'
+    %h2 Have you already guessed something today?
+  .go-down
+    %p Find more
+    = image_tag 'theme/go-down.png', alt: 'Go Down'
+
+#container.container
+  %section.cbp-so-section.page2
+    .row
+      .six.columns.article.make-it-appear-left
+        %h3 The most simple website with your favorite design
+        %p
+          Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. 
+          %b Andouille
+          tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.
+        .space
+        %ul.brand
+          %li
+            = link_to '#', class: :'has-tooltip' do
+              %span.tooltip
+                %span Currently available only for iPhone
+              = image_tag 'theme/apple.png', alt: 'Apple Ico'
+          %li
+            = image_tag 'theme/android.png', alt: 'Android Ico', style: 'opacity:0.2;'
+          %li
+            = image_tag 'theme/windows.png', alt: 'Windows Ico', style: 'opacity:0.2;'

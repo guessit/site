@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>CLOUD Theme Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+			
+		<img src="assets/images/bg.jpg"/>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 01/10/2014<br>
+					By: Supview<br>
+					Email: <a href="mailto:hello@iamsupview.be">hello@iamsupview.be</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a target="_blank" href="http://themeforest.net/user/Supview">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#contact">Newsletter</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+		<p>This theme is a one page portfolio. All of the information within the main content area is nested within a div with an id of "primaryContent". The general template structure is the same throughout the template. Here is the general structure looks like.</p>
+		
+		<img src="assets/images/htmlstructure.png" alt="HTML Structure" />
+		<p></p>
+
+		<p>As you can see, it's pretty well commented, you'll found easy what you are looking for.</p>
+		<p>if you are comfortable with HTML&CSS, you can have take a look on the gumby Grid framework ( <a target="_blank" href="http://gumbyframework.com/docs/grid/#!/basic-grid">http://www.gumbyframework.com</a> ), you'll found how to modify correctly the width of the different section into your future website.</p>
+
+		<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h3>
+		
+		<p>There's always a table of content like this one</p>
+
+<pre>	
+/*
+
+	EXHO TEMPLATE  V1.0 BY SUPVIEW.BE
+	
+
+	01. Font Face
+	02. Generals Settings
+	03. Header Section Settings
+	04. Navigation Settings
+	04. Page1 / Header Section Settings
+	05. Page2 Section Settings
+	06. Page3 Section Settings
+	07. Page4 Section Settings
+	08. Testimonials Section Settings
+	09. Page5 / Subscribe Section Settings
+	10. Preloading Effect
+	11. Media Queries Settings
+			
+*/
+
+
+
+</pre>		
+
+		<p>I'm using five CSS files in this theme.</p>
+
+		<p>The first file named <b>style.css</b> contains all of the specific stylings for the page. The file is separated into sections like <b>this exemple:</b></p>  
+
+<pre>	
+/* 03. HEADER SECTION ================================================== */
+
+	some code
+
+/* 04. PAGE 1 SECTION ================================================== */
+	
+	some code
+	
+/* 05. PAGE 2 SECTION ================================================== */
+	
+	some code
+	
+/* 06. SUBSCRIBE SECTION ================================================== */
+	
+	some code
+	
+</pre>
+
+
+		<p>The second file named <b>gumby.css</b> is the framework that i'm using. you have nothing to touch there. It's for the row and column.</p>  
+		
+		<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p> 
+				
+				
+		<p>The tirth file named <b>component.css</b> is the stylesheet for the flexslider generals settings (used for the testimonials).</p>
+		
+		<p>The fourth one is <b>animate.css</b>, this one is used for the little easing effect when you scroll down.<br />
+		You can use them easily with theses different class : <br /><br /><b>.make-it-appear-top <br /> .make-it-appear-bottom <br /> .make-it-appear-left <br /> .make-it-appear-right</b><br /><br />You have just to add it into your concerning code into the HTML</p>	
+
+		<p>The fifth file named <b>owl-carousel</b> is used for the grabbing effect into the page3 ( iPad ).</p>
+
+
+		<hr>
+		
+		<h3 id="javascript"><strong>C) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This theme imports Ten Javascript files.</p>
+		
+		<ol>
+			<li>jQuery 1.9.1</li>
+			<li>jQuery Modernizr</li>
+			<li>main.js</li>
+			<li>plugins.js</li>
+			<li>owl.carousel.js</li>
+			<li>classie.js</li>
+			<li>jquery.backgroundvideo.js</li>
+			<li>jquery.flexslider.js</li>
+			<li>mediaCheck.js</li>
+			<li>waypoints.min.js</li>
+		</ol>
+		  
+		<ol>
+			<li>jQuery is a Javascript library that greatly reduces the amount of code that you must write</li>
+			<li>Modernizr make an altenative for others navigators if they don't accept some code</li>
+			<li>main.js contain little script for making the always top navigation, smooth scrolling etc. This is where you setup most the js library</li>
+			<li>plugins.js is used for some plugins like the flickering text for validate the form</li>
+			<li>owl.carousel.js is used for the grabbing slider</li>
+			<li>classie.js is used for reduced height of the navigation when you scroll down</li>
+			<li>jquery.backgroundvideo.js is used for the background video into the header section</li> 
+			<li>jquery.flexslider.js is used for the testimonial slider</li>
+			<li>mediaCheck.js allows you to disable or enable javascript code into the main.js</li>
+			<li>waypoints.min.js is used in this case for the animation ( make-it-appear )</li>			
+			
+		</ol>
+		
+		<p>Concerning the VideoBackground, if you don't want to use it just delete theses lines from the main.js <b>( line 274 )</b></p>
+		
+<pre>
+
+            var videobackground = new $.backgroundVideo($('.page1'), {
+                "align": "centerXY",
+                "width": 1280,
+                "height": 720,
+                "path": "http://www.baribal.be/exho/video/",
+                "filename": "desktop",
+                "types": ["mp4", "ogg", "webm"]
+            });
+
+
+
+</pre>		
+		
+				<hr>
+		
+		<h3 id="contact"><strong>D) Newsletter Form</strong> - <a href="#toc">top</a></h3>
+		
+		
+		<p> For using it with your E-Mail just replace the code below here on <b>line 3 of the from_sender.php</b> .
+		
+<pre>
+$to = "hello@yourmail.com";
+</pre>
+
+
+				<hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+		<p>I've used the following images, icons or other files as listed.
+		
+		<ul>
+			<li>Gumby Framework - <a target="_blank" href="http://gumbyframework.com/">http://www.gumbyframework.com</a></li>
+			<li>Animate Stylesheet - <a href="https://daneden.me/animate/" target="_blank">https://daneden.me/animate/</a></li>
+			<li>Team member from Koji Ishibashi - <a href="http://www.behance.net/gallery/Employee-profile-photo-for-Brooklyn-Boulders/4690841">http://www.behance.net/gallery/Employee-profile-photo-for-Brooklyn-Boulders/4690841</a></li>
+			<li>Owl Carousel - <a href="http://owlgraphic.com/owlcarousel/" target="_blank">http://owlgraphic.com/owlcarousel/</a></li>		
+			<li>Apple Products Mockup from Pixeden - <a target="_blank" href="http://www.pixeden.com/">http://www.pixeden.com/</a></li>
+			<li>Videobackground from Victor Coulon - <a target="_blank" href="http://victorcoulon.fr">http://victorcoulon.fr</a></li>
+			</ul>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. <strong>No guarantees, but I'll do my best to assist.</strong> If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p> 
+				<p><a href="#toc">Go To Table of Contents</a></p>
+				<p align="center"><a href="http://themeforest.net/user/Supview" target="_blank"><img src="assets/images/logo.png"/></a></p>
+	</div><!-- end div .container -->
+</body>
+</html>

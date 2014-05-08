@@ -38,6 +38,7 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    google-analytics-rails (0.0.5)
     haml (4.0.5)
       tilt
     haml-rails (0.5.3)
@@ -121,6 +122,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  google-analytics-rails
   haml-rails
   jbuilder (~> 2.0)
   jquery-rails

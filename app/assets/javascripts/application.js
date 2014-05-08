@@ -13,4 +13,12 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require main
+//= require plugins
+//= require classie
+//= require jquery.flexslider
+//= require owl.carousel
+//= require waypoints.min
+//= require jquery.backgroundvideo
+//= require mediaCheck
 //= require_tree .
