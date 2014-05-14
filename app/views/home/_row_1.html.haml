@@ -2,7 +2,7 @@
   .huge-title
     .logo-phone.centered
       = image_tag 'logo.png', alt: 'GuessIt!'
-    %h2 Have you already guessed something today?
+    %h2= t('header.title')
   .go-down
-    %p Find more
-    = image_tag 'theme/go-down.png', alt: 'Go Down'
+    %p= t('header.find_more')
+    = image_tag 'theme/go-down.png', alt: t('header.go_down')

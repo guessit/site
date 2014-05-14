@@ -1,0 +1,17 @@
+pt:
+  header:
+    title: 'Você já adivinhou algo hoje?'
+    find_more: 'Veja mais'
+    go_down: 'Scroll'
+  guess_it:
+    title: 'O melhor jogo de adivinhação disponível no seu telefone!'
+    description_1: 'A melhor plataforma de jogos com diversos temas disponíveis para você jogar! E o melhor: totalmente'
+    description_2: 'gratuito!'
+    description_3: 'Não perca seu tempo e baixe já! GuessIt!'
+    iphone: 'Atualmente disponível somente para iPhone'
+    screenshot: 'GuessIt! Screenshot'
+    ico:
+      apple: 'Apple Ico'
+      android: 'Android Ico'
+      windows: 'Windows Ico'
+

@@ -1,22 +1,23 @@
 %section.cbp-so-section.page2
   .row
     .six.columns.article.make-it-appear-left
-      %h3 The most simple website with your favorite design
+      .space
+      %h3= t('guess_it.title')
       %p
-        Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. 
-        %b Andouille
-        tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.
+        = t('guess_it.description_1')
+        %b= t('guess_it.description_2')
+        = t('guess_it.description_3')
       .space
       %ul.brand
         %li
           = link_to '#', class: :'has-tooltip' do
             %span.tooltip
-              %span Currently available only for iPhone
-            = image_tag 'theme/apple.png', alt: 'Apple Ico'
+              %span= t('guess_it.iphone')
+            = image_tag 'theme/apple.png', alt: t('guess_it.ico.apple')
         %li
-          = image_tag 'theme/android.png', alt: 'Android Ico', style: 'opacity:0.2;'
+          = image_tag 'theme/android.png', alt: t('guess_it.ico.android'), class: :unavailable
         %li
-          = image_tag 'theme/windows.png', alt: 'Windows Ico', style: 'opacity:0.2;'
+          = image_tag 'theme/windows.png', alt: t('guess_it.ico.windows'), class: :unavailable
 
     .iphone.make-it-appear-right
-      = image_tag 'theme/iphone.png', alt: 'iPhone'
+      = image_tag 'theme/iphone.png', alt: t('guess_it.screenshot')

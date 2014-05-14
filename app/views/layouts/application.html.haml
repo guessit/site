@@ -9,10 +9,16 @@
     %meta{author: :'humans.txt'}
     %meta{name: :viewport, content: 'width=device-width, initial-scale=1.0, maximum-scale=1'}
 
-    %link{rel: 'shortcut icon', href: 'favicon.png', type: 'image/x-icon'}
-
     = javascript_include_tag 'head', 'data-turbolinks-track' => true
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+
+    = favicon_link_tag 'favicon/apple-touch-icon-144x144.png', :rel => 'apple-touch-icon', :type => 'image/png', :sizes => '144x144'
+    = favicon_link_tag 'favicon/apple-touch-icon-114x114.png', :rel => 'apple-touch-icon', :type => 'image/png', :sizes => '114x114'
+    = favicon_link_tag 'favicon/apple-touch-icon-72x72.png', :rel => 'apple-touch-icon', :type => 'image/png', :sizes => '72x72'
+    = favicon_link_tag 'favicon/apple-touch-icon-57x57.png', :rel => 'apple-touch-icon', :type => 'image/png', :sizes => '57x57'
+    = favicon_link_tag 'favicon/apple-touch-icon.png', :rel => 'apple-touch-icon', :type => 'image/png'
+    = favicon_link_tag 'favicon/favicon.ico', :rel => 'shortcut icon'
+
     = csrf_meta_tags
 
     = analytics_init if Rails.env.production?

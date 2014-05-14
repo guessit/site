@@ -5,3 +5,13 @@
 .first-column {
   margin-left: 0;
 }
+
+ul.brand {
+  li {
+    img {
+      &.unavailable {
+        opacity: 0.2;
+      }
+    }
+  }
+}
