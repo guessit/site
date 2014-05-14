@@ -1,11 +1,16 @@
 %section.cbp-so-section.page3
   .row
     .twelve.columns.article.centered.make-it-appear-top
-      %h3 Connect your favorite Devices together
-      %p 
-        Bacon ipsum dolor sit amet meatball shank pork chop capicola fatback pork loin sirloin flank. 
-        %b Andouille
-        tongue corned beef rump pork loin shank meatball capicola turducken venison shankle kevin pancetta tri-tip boudin.
+      %h3= t('theme.title')
+      %p
+        = t('theme.with')
+        %b= t('theme.guess_it')
+        = t('theme.you_have')
+        %b= t('theme.fun')
+        = t('theme.test_knowledge')
+        %b= t('theme.learn')
+      %p
+        = t('theme.detail')
       .space
         = link_to "Here's a simple link", '#', class: :'border-button'
 

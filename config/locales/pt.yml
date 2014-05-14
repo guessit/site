@@ -17,6 +17,15 @@ pt:
       apple: 'Apple Ico'
       android: 'Android Ico'
       windows: 'Windows Ico'
+  theme:
+    title: 'Divirta-se e teste o seu conhecimento'
+    with: 'Com o'
+    guess_it: 'GuessIt!'
+    you_have: 'você se'
+    fun: 'diverte'
+    test_knowledge: ', testa o seu conhecimento e ainda'
+    learn: 'aprende!'
+    detail: 'Cada jogo com um tema específico. Jogue todos eles e prove que você é uma wiki ambulante'
   subscribe:
     title: 'Cadastre na nossa newsletter e fique atualizado sobre atualizações'
     email: 'Seu email'
