@@ -3,12 +3,10 @@
     .article.twelve.columns.centered.make-it-appear-top
       = image_tag 'theme/appstore.png', alt: 'AppStore'
       .space
-      %h4 Subscribe to our newsletter and stay updated on the release
-
+      %h4= t('subscribe.title')
       = form_tag do
         .seven.columns.first-column
-          = email_field :email, :email, class: :email, placeholder: 'Your email'
+          = email_field :email, :email, class: :email, placeholder: t('subscribe.email')
         .five.columns
-          = submit_tag 'Notify me', class: :button
-
-      %p.spam We promisse we won't spam your inbox!
+          = submit_tag t('subscribe.submit'), class: :button
+      %p.spam= t('subscribe.spam')

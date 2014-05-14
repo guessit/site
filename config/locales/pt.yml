@@ -17,4 +17,8 @@ pt:
       apple: 'Apple Ico'
       android: 'Android Ico'
       windows: 'Windows Ico'
-
+  subscribe:
+    title: 'Cadastre na nossa newsletter e fique atualizado sobre atualizações'
+    email: 'Seu email'
+    submit: 'Cadastrar'
+    spam: 'Nós prometemos que não faremos spam na sua caixa de entrada!'
