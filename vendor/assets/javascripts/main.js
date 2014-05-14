@@ -150,7 +150,7 @@ $(document).ready(function () { // Document ready
 
         var form_data = $(this).serialize();
 
-        if (validateEmail($('input[name=email]').attr('value'))) {
+        if (validateEmail($('input[name=email]').val())) {
 
             if (typeof ajax_form !== "undefined" && ajax_form === true) {
 
