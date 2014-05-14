@@ -1,5 +1,6 @@
 pt:
   navigation:
+    logo: 'GuessIt! Logo'
     share: 'Compartilhe'
   header:
     title: 'Você já adivinhou algo hoje?'

@@ -1,5 +1,6 @@
 en:
   navigation:
+    logo: 'GuessIt! Logo'
     share: 'Share'
   header:
     title: 'Have you already guessed something today?'
