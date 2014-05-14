@@ -17,6 +17,18 @@ pt:
       apple: 'Apple Ico'
       android: 'Android Ico'
       windows: 'Windows Ico'
+  help:
+    title: 'Cansado de ficar agarrado nos outros jogos?'
+    description_1: 'No'
+    description_2: 'GuessIt!'
+    description_3: 'você não tem esse problema! Você pode usar dicas no momento que quiser e quantas vezes quiser! Elimine letras erradas, preencha a resposta com letras corretas ou até mesmo pule de fase.'
+  social:
+    title: 'Peça ajuda para os seus amigos!'
+    description: 'Poste no Twitter e Facebook para que seus amigos possam te ajudar com a resposta de alguma fase.'
+    news_1: 'Em breve muitas outras novidades,'
+    news_2: 'cadastre na nossa newsletter'
+    news_3: 'e fique por dentro!'
+    newsletter: 'Newsletter'
   theme:
     title: 'Divirta-se e teste o seu conhecimento'
     with: 'Com o'

@@ -17,6 +17,18 @@ en:
       apple: 'Apple Ico'
       android: 'Android Ico'
       windows: 'Windows Ico'
+  help:
+    title: 'Tired of getting stuck on other games?'
+    description_1: 'On'
+    description_2: 'GuessIt!'
+    description_3: "you don't have that problem! You can use hints anytime and how many times you want! Remove wrong letters, fill the answer with correct letters or even skip a level."
+  social:
+    title: 'Ask your friends for help!'
+    description: 'Share on Twitter and Facebook so your friends can help you with the answer.'
+    news_1: 'Soon much more news,'
+    news_2: 'subscribe to our newsletter'
+    news_3: 'and stay tuned!'
+    newsletter: 'Newsletter'
   theme:
     title: 'Have fun and test your knowledge'
     with: 'With'
