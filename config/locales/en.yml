@@ -1,4 +1,6 @@
 en:
+  navigation:
+    share: 'Share'
   header:
     title: 'Have you already guessed something today?'
     find_more: 'Find more'

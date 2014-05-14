@@ -1,4 +1,6 @@
 pt:
+  navigation:
+    share: 'Compartilhe'
   header:
     title: 'Você já adivinhou algo hoje?'
     find_more: 'Veja mais'

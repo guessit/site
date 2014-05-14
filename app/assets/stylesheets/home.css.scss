@@ -2,15 +2,30 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.first-column {
-  margin-left: 0;
-}
+body {
+  section {
+    &.page1 {
+      background: #3a3837;
+    }
+  }
+  .first-column {
+    margin-left: 0;
+  }
 
-ul.brand {
-  li {
-    img {
-      &.unavailable {
-        opacity: 0.2;
+  .cbp-af-header {
+    #logo {
+      img {
+        padding-top: 25px;
+      }
+    }
+  }
+
+  ul.brand {
+    li {
+      img {
+        &.unavailable {
+          opacity: 0.2;
+        }
       }
     }
   }
