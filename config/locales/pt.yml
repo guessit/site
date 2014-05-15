@@ -38,6 +38,7 @@ pt:
     test_knowledge: ', testa o seu conhecimento e ainda'
     learn: 'aprende!'
     detail: 'Cada jogo com um tema específico. Jogue todos eles e prove que você é uma wiki ambulante'
+    games: 'Veja alguns jogos'
   subscribe:
     title: 'Cadastre na nossa newsletter e fique atualizado sobre atualizações'
     email: 'Seu email'

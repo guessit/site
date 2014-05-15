@@ -38,6 +38,7 @@ en:
     test_knowledge: ', test your knowledge and still'
     learn: 'learn!'
     detail: "Each game with a specific theme. Play all of them and prove you're a walking wiki!"
+    games: 'Look at some games'
   subscribe:
     title: 'Subscribe to our newsletter and stay updated on the release'
     email: 'Your email'

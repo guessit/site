@@ -12,7 +12,7 @@ css3-container{
 
 /* end testimonial block */
 
-.flex-direction-nav a {width: 35px; height: 52px; margin: -24px 0px 0;  background:#FFF;display: block; background: asset_path('theme/mediumarrows.png') no-repeat 0 0; position: absolute; top: 50%; z-index: 9999999; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;transition: all .3s ease; -moz-transition: all .3s ease;}
+.flex-direction-nav a {width: 35px; height: 52px; margin: -24px 0px 0;  background:#FFF;display: block; background: asset_url('theme/mediumarrows.png') no-repeat 0 0; position: absolute; top: 50%; z-index: 9999999; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;transition: all .3s ease; -moz-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: -56px 0; right: -36px }
 .flex-direction-nav .flex-prev {background-position: -3px -1px; left: -36px; display: none;}
 .flexslider:hover .flex-next {opacity: 0.8; right: 5px;}

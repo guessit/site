@@ -2,26 +2,14 @@
   .row
     #slider1.four.columns.testblock.flexslider.make-it-appear-left
       %ul.slides
-        %li
-          = image_tag 'http://www.placehold.it/185x185'
-        %li
-          = image_tag 'http://www.placehold.it/185x185'
-        %li
-          = image_tag 'http://www.placehold.it/185x185'
+        - @games.each do |game|
+          %li
+            = image_tag game[:image]
     #slider2.eight.columns.flexslider.make-it-appear-right
       %ul.slides
-        %li
-          %h5.title Francis Martinez
-          .sub via Twitter 5 days ago
-          .textblock
-            %p Interdum et malesuada fames ac ante ipsum primis in faucibus. Bacon ipsum dolor sit amet meatball shank pork chop flank.
-        %li
-          %h5.title Manon Deluxe
-          .sub via FeedMe 7 days ago
-          .textblock
-            %p Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        %li
-          %h5.title Bary Gilson
-          .sub via Mail 10 days ago
-          .textblock
-            %p Interdum et malesuada fames ac ante ipsum primis in faucibus. Bacon ipsum dolor sit amet mshank capicola fatback pork loin sirloin flank.
+        - @games.each do |game|
+          %li
+            %h5.title= game[:title]
+            .sub= game[:sub]
+            .textblock
+              %p= game[:description]
