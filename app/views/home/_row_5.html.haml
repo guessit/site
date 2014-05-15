@@ -4,12 +4,14 @@
       %ul.slides
         - @games.each do |game|
           %li
-            = image_tag game[:image]
+            = link_to game[:url], target: :_blank do
+              = image_tag "games/#{game[:key]}.png"
     #slider2.eight.columns.flexslider.make-it-appear-right
       %ul.slides
         - @games.each do |game|
           %li
-            %h5.title= game[:title]
-            .sub= game[:sub]
-            .textblock
-              %p= game[:description]
+            = link_to game[:url], target: :_blank do
+              %h5.title= t("games.#{game[:key]}.title")
+              .sub= t("games.#{game[:key]}.sub")
+              .textblock
+                %p= t("games.#{game[:key]}.description")

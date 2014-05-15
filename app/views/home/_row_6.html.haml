@@ -1,7 +1,8 @@
 .cbp-so-section.page5
   #signup.row
     .article.twelve.columns.centered.make-it-appear-top
-      = image_tag 'theme/appstore.png', alt: 'AppStore'
+      = link_to 'https://itunes.apple.com/us/artist/marlon-m-andrade/id680402949', target: :_blank do
+        = image_tag 'theme/appstore.png', alt: 'AppStore'
       .space
       %h4= t('subscribe.title')
       = form_tag 'http://guessit.us8.list-manage2.com/subscribe/post?u=3cf5b2d0c13f916c2c41a1c9d&amp;id=a6920f4056' do

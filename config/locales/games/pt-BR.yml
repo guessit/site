@@ -1,0 +1,30 @@
+pt-BR:
+  games:
+    anime:
+      title: 'Anime?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    brazilian_football:
+      title: 'Clubes Brasileiros?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    country_flags:
+      title: 'Country Flags?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    dragon_ball:
+      title: 'Dragon Ball?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    retro_games:
+      title: 'Retro Games?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    technology:
+      title: 'Technology?'
+      sub: 'are you a tech addicted?'
+      description: ''
+    vida_de_programador:
+      title: 'Vida de Programador?'
+      sub: 'are you a tech addicted?'
+      description: ''

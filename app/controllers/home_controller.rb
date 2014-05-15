@@ -7,53 +7,32 @@ class HomeController < ApplicationController
   def games
     [
       { 
-        image: 'technology.png',
-        title: 'Technology?',
-        sub: 'bla bla bla',
-        description: '',
-        url: ''
+        key: 'technology',
+        url: 'https://itunes.apple.com/us/app/technology/id680402946'
       },
       { 
-        image: 'country_flags.png',
-        title: 'Country Flags?',
-        sub: 'ble ble ble',
-        description: '',
-        url: ''
+        key: 'country_flags',
+        url: 'https://itunes.apple.com/us/app/country-flags/id703990128'
       },
       { 
-        image: 'brazilian_football.png',
-        title: 'Brazilian Footbal?',
-        sub: '',
-        description: '',
-        url: ''
+        key: 'brazilian_football',
+        url: 'https://itunes.apple.com/us/app/brazilian-football/id703990144'
       },
       { 
-        image: 'anime.png',
-        title: 'Anime?',
-        sub: '',
-        description: '',
-        url: ''
+        key: 'anime',
+        url: 'https://itunes.apple.com/us/app/anime/id703990158'
       },
       { 
-        image: 'dragon_ball.png',
-        title: 'Dragon Ball?',
-        sub: '',
-        description: '',
-        url: ''
+        key: 'dragon_ball',
+        url: 'https://itunes.apple.com/us/app/dragon-ball/id726093384'
       },
       { 
-        image: 'retro_games.png',
-        title: 'Retro Games?',
-        sub: '',
-        description: '',
-        url: ''
+        key: 'retro_games',
+        url: 'https://itunes.apple.com/us/app/retro-games/id703990173'
       },
       { 
-        image: 'vida_de_programador.png',
-        title: 'Vida de Programador?',
-        sub: '',
-        description: '',
-        url: ''
+        key: 'vida_de_programador',
+        url: 'https://itunes.apple.com/us/app/vida-de-programador/id725437318'
       }
     ]
   end
