@@ -15,6 +15,7 @@
  *= require 'component'
  *= require 'owl.carousel'
  *= require 'animate'
+ *= require font-awesome
  *= require_tree .
  *= require_self
  */

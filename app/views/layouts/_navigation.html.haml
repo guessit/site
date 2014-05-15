@@ -1,14 +1,18 @@
 .cbp-af-header
   %nav.row
-    .right
-      =link_to t('navigation.share'), '#', class: :button
-      .social-icon{style: 'display:none'}
-        / add facebook share button
-        / add twitter share button
+    %ul.right
+      %li
+        = link_to '#', class: [:button, :fb] do
+          = fa_icon 'facebook'
+      %li
+        = link_to '#', class: [:button, :tw] do
+          = fa_icon 'twitter'
+      %li
+        = link_to '#', class: [:button, :it] do
+          = fa_icon 'instagram'
+      %li
+        = link_to '#', class: [:button, :ml] do
+          = fa_icon 'envelope'
     #logo
       = link_to '#' do
         = image_tag 'logo.png', alt: t('navigation.logo')
-    %ul#nav
-      %li= link_to 'Contact', '#'
-      %li= link_to 'Support', '#'
-      %li= link_to 'Login', '#'

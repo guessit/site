@@ -17,6 +17,34 @@ body {
         padding-top: 25px;
       }
     }
+
+    .button {
+      &.fb {
+        background: #4c66a4;
+        padding-right: 1px;
+        &:hover {
+          background: #24428a;
+        }
+      }
+      &.tw {
+        background: #55acee;
+        &:hover {
+          background: #2287d4;
+        }
+      }
+      &.it {
+        background: #517fa4;
+        &:hover {
+          background: #285e8a;
+        }
+      }
+      &.ml {
+        background: #d14836;
+        &:hover {
+          background: #b81f0b;
+        }
+      }
+    }
   }
 
   ul.brand {
