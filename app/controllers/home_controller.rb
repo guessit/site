@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @games = games.sample 4
+    @games = games.sample 5
   end
 
   private
