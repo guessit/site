@@ -76,7 +76,7 @@ $(document).ready(function () { // Document ready
         controlNav: false,
         smoothHeight: true,
         animationLoop: true,
-        slideshowSpeed: 6000,
+        slideshowSpeed: 10000,
         slideToStart: 0,
     });
 
@@ -87,7 +87,7 @@ $(document).ready(function () { // Document ready
         smoothHeight: true,
         animationLoop: true,
         sync: "#slider1",
-        slideshowSpeed: 6000,
+        slideshowSpeed: 10000,
         slideToStart: 0,
     });
 
@@ -214,26 +214,8 @@ $(document).ready(function () { // Document ready
             }, {
                 offset: '50%'
             });
-
-/*-----------------------------------------------------------------------------------*/
-            /*	09. VIDEO BACKGROUND READY
-/*-----------------------------------------------------------------------------------*/
-
-
-            var videobackground = new $.backgroundVideo($('.page1'), {
-                "align": "centerXY",
-                "width": 1280,
-                "height": 720,
-                "path": "http://www.baribal.be/exho/video/", /* Folder wich contain the mp4, ogg and webm video */
-                "filename": "desktop",
-                "types": ["mp4", "ogg", "webm"]
-            });
-
         }
-
-
     }); /* END OF THE MEDIACHECK */
-
 
 }); /* END OF Document Ready */
 
