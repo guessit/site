@@ -83,3 +83,23 @@ body {
     }
   }
 }
+
+/* Media Queries for iPad in Portrait */
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+  body {
+    .iphone {
+      top: 4%;
+      right: -4%%;
+      width: 80%;
+    }
+  }
+}
+
+@media screen and (min-width : 1025px) and (max-width : 1280px) {
+  body {
+    .iphone {
+      right: 0%;
+    }
+  }
+}
