@@ -7,11 +7,22 @@ body {
     &.page1 {
     }
   }
+
   .first-column {
     margin-left: 0;
   }
 
+  .iphone {
+    right: 120px;
+    top: 2%;
+  }
+
   .cbp-af-header {
+    &.cbp-af-header-shrink {
+      background-color: rgba(0, 0, 0, 0.1);
+      height: 100px;
+    }
+
     #logo {
       img {
         padding-top: 25px;
