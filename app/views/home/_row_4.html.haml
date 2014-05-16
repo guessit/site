@@ -8,10 +8,11 @@
         %b= t('help.description_2')
         = t('help.description_3')
       .space
-      = image_tag 'theme/iphone.png', alt: 'Example'
+      = image_tag "screenshots/#{I18n.locale}/congrats.png", alt: 'Example'
 
     .six.columns.make-it-appear-right
-      = image_tag 'theme/iphone.png', alt: 'Example'
+      .space
+      = image_tag "screenshots/#{I18n.locale}/help.png", alt: 'Example'
       .space
       %h4= t('social.title')
       %p= t('social.description')

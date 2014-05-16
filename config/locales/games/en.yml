@@ -2,29 +2,29 @@ en:
   games:
     anime:
       title: 'Anime?'
-      sub: 'do you like animes?'
+      sub: "for you who doesn't miss an anime!"
       description: 'Test your knowledge about animes. From the most popular to the least popular! Have fun and show your friends your knowledge!'
     brazilian_football:
       title: 'Brazilian Football?'
-      sub: 'do you know a lot about the brazilian football?'
+      sub: 'for anyone who love football!'
       description: 'Do you follow the brazilian football? Do you know the club logos from first division? And the second one? And some regional clubs? Test your knowledge about the brazilian football with that game!'
     country_flags:
       title: 'Country Flags?'
-      sub: 'do you know some country flags?'
+      sub: "for you who get only A's on geography"
       description: 'Probably you already know the flags of the greatest and most influential countries in the world, but how about those that are on distant continents or the smaller ones? Test your knowledge of geography and guess the country flags around the world!'
     dragon_ball:
       title: 'Dragon Ball?'
-      sub: 'do you know everything about Dragon Ball characters?'
+      sub: 'for those who remember all the sagas'
       description: 'Do  you know everything about Dragon Ball characters? From the classic one, going through Dragon Ball Z and GT? Remember the characters of that fantastic anime!'
     retro_games:
       title: 'Retro Games?'
-      sub: 'do you remeber some classic games?'
+      sub: 'for you who is nostalgic for old games'
       description: 'Have you played lots of video games when you were younger? From which game era are you? Have you played Atari or you are younger and started straight on PlayStation? Guess the classic games from various game consoles!'
     technology:
       title: 'Technology?'
-      sub: 'are you a tech addicted?'
+      sub: 'for those who are addicted to technology!'
       description: 'Do you know the logo or icon from many software that we use everyday? Do you recognize the various social networks only by its logo? Test your tech knowledge with that game!'
     vida_de_programador:
       title: 'Vida de Programador?'
-      sub: 'do you know those comic?'
+      sub: 'for those who enjoy these comics'
       description: "Have you ever read Vida de Programador's comics? If so, remeber some of those with that game! If not, enjoy this game to know those very fun comics!"

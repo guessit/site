@@ -2,29 +2,29 @@ pt-BR:
   games:
     anime:
       title: 'Anime?'
-      sub: 'você gosta de animes?'
+      sub: 'para você que não perde um anime!'
       description: 'Teste seu conhecimento sobre animes. Desde os mais conhecidos até aqueles menos conhecidos! Divirta-se e mostre para os seus amigos seu conhecimento!'
     brazilian_football:
       title: 'Clubes Brasileiros?'
-      sub: 'você conhece muito sobre o futebol brasileiro?'
+      sub: 'para quem é grudado no futebol!'
       description: 'Você acompanha bastante o futebol brasileiro? Conhece os escudos dos times da primeira divisão? E quem sabe da segunda? E alguns clubes regionais? Prove seu conhecimento sobre o futebol brasileiro com este jogo!'
     country_flags:
       title: 'Country Flags?'
-      sub: 'você conhece a bandeira dos paises?'
+      sub: 'para você que é fera em geografia!'
       description: 'Provavelmente você conhece a bandeira dos maiores e mais influentes países do mundo, mas e aqueles em continentes distantes do seu país e menores? Teste seu conhecimento de geografia adivinhando a bandeira dos países do mundo!'
     dragon_ball:
       title: 'Dragon Ball?'
-      sub: 'você sabe tudo sobre os personagens de Dragon Ball?'
+      sub: 'para quem lembra de todas as sagas!'
       description: 'Você conhece tudo sobre os personagens do Dragon Ball? Desde o clássico, passando por Dragon Ball Z e GT? Relembre os personagens deste fantástico anime!'
     retro_games:
       title: 'Retro Games?'
-      sub: 'você lembra de jogos antigos?'
+      sub: 'para você que é saudosista por jogos antigos'
       description: 'Você jogou muito video game quando mais novo? De qual era dos games você é? Jogou Atari ou é mais novo e começou direto por PlayStation? Adivinhe os jogos clássicos de diversos consoles de video game!'
     technology:
       title: 'Technology?'
-      sub: 'você é viciado em tecnologia?'
+      sub: 'para quem é viciado em tecnologia!'
       description: 'Você sabe qual é a logo ou ícone de vários aplicativos que todos nós usamos no dia a dia? Reconhece as mais diversas rede sociais somente pelo logo? Teste o seu conhecimento de tecnologia com este jogo!'
     vida_de_programador:
       title: 'Vida de Programador?'
-      sub: 'você conhece estas tirinhas?'
+      sub: 'para quem curte essas tirinhas'
       description: 'Já leu as tirinhas do site Vida de Programador? Se já leu, relembre algumas delas através do jogo! Se ainda não leu, aproveite esse jogo para conhecer essas divertidas tirinhas!'

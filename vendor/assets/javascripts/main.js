@@ -137,57 +137,6 @@ $(document).ready(function () { // Document ready
         transitionStyle: "fade",
     });
 
-
-
-/*-----------------------------------------------------------------------------------*/
-    /*	06. FORM SENDER
-/*-----------------------------------------------------------------------------------*/
-
-
-
-    /* Form Submission */
-    $('form').submit(function () {
-
-        var form_data = $(this).serialize();
-
-        if (validateEmail($('input[name=email]').val())) {
-
-            if (typeof ajax_form !== "undefined" && ajax_form === true) {
-
-                $.post($(this).attr('action'), form_data, function (data) {
-                    $('form').show('slow', function () {
-                        $(this).after('<div class="clear"></div> <p class="msg-ok">' + data + '</p>');
-                    });
-                    $('.spam').hide();
-                    $('.msg-ok').delay(100).effect("pulsate", {
-                        times: 1
-                    }, 1000).hide();
-                });
-
-                return false;
-
-            }
-
-        } else {
-            $('p.spam').text('Please enter a valid e-mail').effect("pulsate", {
-                times: 3
-            }, 1000);
-            return false;
-        }
-
-    });
-
-
-    /* Validate E-Mail */
-
-    function validateEmail(email) {
-        // http://stackoverflow.com/a/46181/11236
-
-        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        return re.test(email);
-    }
-
-
 /*-----------------------------------------------------------------------------------*/
     /*	07. MEDIACHECK
 /*-----------------------------------------------------------------------------------*/
