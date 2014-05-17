@@ -626,7 +626,7 @@ nav {
 /* 08. TESTIMONIALS  ================================================== */
 
 
-#testimonial {
+#games {
 	padding:80px 0; 
 	background: #131313; 
 	position: relative; 
@@ -893,7 +893,7 @@ h3 {font-size:32px;}
 }
 
 
-#testimonial {text-align: center;}
+#games {text-align: center;}
 
 #slider2 {margin-top:20px; padding-right: 0px;}
 
@@ -912,9 +912,9 @@ and (min-device-width : 768px)
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
 
-#testimonial .columns{width: 100%;}
+#games .columns{width: 100%;}
 
-#testimonial {text-align: center;}
+#games {text-align: center;}
 
 
 .iphone {
