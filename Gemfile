@@ -6,6 +6,7 @@ ruby '2.1.1'
 gem 'rails', '4.1.1'
 
 gem 'pg'
+gem 'rails_12factor', group: :production
 
 gem 'haml-rails'
 # Use SCSS for stylesheets
