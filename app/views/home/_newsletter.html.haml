@@ -2,7 +2,9 @@
   #signup.row
     .article.twelve.columns.centered.make-it-appear-top
       = link_to 'https://itunes.apple.com/us/artist/marlon-m-andrade/id680402949', target: :_blank do
-        = image_tag 'theme/appstore.png', alt: 'AppStore'
+        = image_tag 'theme/appstore.png', alt: 'App Store'
+      = link_to '#android_google_play', target: :_blank do
+        = image_tag 'theme/google_play.png', alt: 'Google Play'
       .space
       %h4= t('subscribe.title')
       = form_tag 'http://guessit.us8.list-manage.com/subscribe/post?u=3cf5b2d0c13f916c2c41a1c9d&amp;id=a6920f4056', method: :post, target: :_blank do
