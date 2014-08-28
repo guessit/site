@@ -11,7 +11,8 @@ pt-BR:
     description_1: 'A melhor plataforma de jogos com diversos temas disponíveis para você jogar! E o melhor: totalmente'
     description_2: 'gratuito!'
     description_3: 'Não perca seu tempo e baixe já! GuessIt!'
-    iphone: 'Atualmente disponível somente para iPhone'
+    iphone: 'Disponível gratuitamente na App Store!'
+    android: 'Baixe os jogos de graça na Google Play!'
     screenshot: 'GuessIt! Screenshot'
     ico:
       apple: 'Apple Ico'

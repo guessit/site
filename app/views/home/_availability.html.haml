@@ -14,8 +14,13 @@
             %span.tooltip
               %span= t('guess_it.iphone')
             = image_tag 'theme/apple.png', alt: t('guess_it.ico.apple')
+
         %li
-          = image_tag 'theme/android.png', alt: t('guess_it.ico.android'), class: :unavailable
+          = link_to '#google_play_android', target: '_blank', class: 'has-tooltip' do
+            %span.tooltip
+              %span= t('guess_it.android')
+            = image_tag 'theme/android.png', alt: t('guess_it.ico.android')
+
         %li
           = image_tag 'theme/windows.png', alt: t('guess_it.ico.windows'), class: :unavailable
 

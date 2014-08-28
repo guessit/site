@@ -11,7 +11,8 @@ en:
     description_1: 'The best game platform with many themes available for you to play! And the best: totally'
     description_2: 'free!'
     description_3: "Don't wast your time and download it! GuessIt!"
-    iphone: 'Currently available only for iPhone'
+    iphone: 'Available free on the App Store!'
+    android: 'Get the games on Google Play for free!'
     screenshot: 'GuessIt! Screenshot'
     ico:
       apple: 'Apple Ico'
